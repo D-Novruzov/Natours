@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
@@ -12,7 +13,10 @@ const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorControllers');
 //using the middleware.
 const app = express();
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
 //1) GLOBAL MIDDLEWARES
+app.use(express.static(path.join(__dirname, 'public')));
 //set security http heaeders
 app.use(helmet());
 //development logging
@@ -44,10 +48,14 @@ app.use(
   }),
 );
 //serving static files
-app.use(express.static(`${__dirname}/public`));
+//app.use(express.static(`${__dirname}/public`));
 
 //3) ROUTES
+
 //mounting, middleware on specific url
+app.get('/', (req, res) => {
+  res.status(200).render('base', { tour: 'The Forest Tiger', user: 'Jonas' });
+});
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
