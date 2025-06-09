@@ -9,6 +9,7 @@ const hpp = require('hpp');
 const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
+const viewRouter = require('./routes/viewRoutes');
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorControllers');
 //using the middleware.
@@ -53,12 +54,11 @@ app.use(
 //3) ROUTES
 
 //mounting, middleware on specific url
-app.get('/', (req, res) => {
-  res.status(200).render('base', { tour: 'The Forest Tiger', user: 'Jonas' });
-});
+app.use('/', viewRouter);
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
+
 //4) hanfling the undefined routes.
 app.all('*', (req, res, next) => {
   next(new AppError(`cant find ${req.originalUrl} on the server`, 404));
