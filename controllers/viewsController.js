@@ -12,7 +12,7 @@ exports.getOverview = catchAsync(async (req, res) => {
     tours: tours,
   });
 });
-exports.getTour = catchAsync(async (req, res) => {
+exports.getTour = catchAsync(async (req, res, next) => {
   //1) get the data for the requested tour with guides and reviews
   const tour = await Tour.findOne({ slug: req.params.slug }).populate({
     path: 'reviews',
@@ -22,6 +22,15 @@ exports.getTour = catchAsync(async (req, res) => {
 
   //3)render template from step one
   res.status(200).render('tour', {
+    title: `${tour.name}`,
     tour,
   });
 });
+exports.getLoginForm = (req, res) => {
+  res
+    .status(200)
+    .set('Content-Security-Policy', "connect-src 'self' http://127.0.0.1:3000/")
+    .render('login', {
+      title: 'Log into your account',
+    });
+};

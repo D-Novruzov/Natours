@@ -65,6 +65,8 @@ exports.protect = catchAsync(async (req, res, next) => {
     req.headers.authorization.startsWith('Bearer')
   ) {
     token = req.headers.authorization.split(' ')[1];
+  } else if (req.cookies.jwt) {
+    token = req.cookies.jwt;
   }
   console.log(token);
   if (!token) {
@@ -86,6 +88,30 @@ exports.protect = catchAsync(async (req, res, next) => {
   if (freshUser.changedPassAfter(decoded.iat))
     return next(new AppError('user chaned the code log in again'));
   req.user = freshUser;
+  next();
+});
+//only for rendered pages there will be no error
+exports.isLoggedIn = catchAsync(async (req, res, next) => {
+  //1) getting the token
+
+  if (req.cookies.jwt) {
+    //1) verify the user
+    const decoded = await promisify(jwt.verify)(
+      req.cookies.jwt,
+      process.env.JWT_SECRET,
+    );
+
+    //2)check if user still exists.
+    const freshUser = await User.findById(decoded.id);
+    if (!freshUser) {
+      return next();
+    }
+    //4)check if the user cahnged the password after the toke was issued
+    if (freshUser.changedPassAfter(decoded.iat)) return next();
+    //THERE IS A LOGGED IN USER
+    res.locals.user = freshUser;
+    next();
+  }
   next();
 });
 exports.restrictTo = (...roles) => {
