@@ -110,7 +110,7 @@ exports.isLoggedIn = catchAsync(async (req, res, next) => {
     if (freshUser.changedPassAfter(decoded.iat)) return next();
     //THERE IS A LOGGED IN USER
     res.locals.user = freshUser;
-    next();
+    return next();
   }
   next();
 });
