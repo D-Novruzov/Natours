@@ -57,6 +57,13 @@ exports.login = catchAsync(async (req, res, next) => {
   //3) if everything okey send token to client
   createAndSendToken(user, 200, res);
 });
+exports.logout = (req, res) => {
+  res.cookie('jwt', 'loggedout', {
+    expires: new Date(Date.now() + 10 * 1000),
+    httpOnly: true,
+  });
+  res.status(200).json({ status: 'success' });
+};
 exports.protect = catchAsync(async (req, res, next) => {
   //1) getting the token
   let token;
@@ -91,29 +98,32 @@ exports.protect = catchAsync(async (req, res, next) => {
   next();
 });
 //only for rendered pages there will be no error
-exports.isLoggedIn = catchAsync(async (req, res, next) => {
+exports.isLoggedIn = async (req, res, next) => {
   //1) getting the token
 
   if (req.cookies.jwt) {
-    //1) verify the user
-    const decoded = await promisify(jwt.verify)(
-      req.cookies.jwt,
-      process.env.JWT_SECRET,
-    );
+    try {
+      //1) verify the user
+      const decoded = await promisify(jwt.verify)(
+        req.cookies.jwt,
+        process.env.JWT_SECRET,
+      );
 
-    //2)check if user still exists.
-    const freshUser = await User.findById(decoded.id);
-    if (!freshUser) {
+      //2)check if user still exists.
+      const freshUser = await User.findById(decoded.id);
+      if (!freshUser) {
+        return next();
+      }
+      //4)check if the user cahnged the password after the toke was issued
+      if (freshUser.changedPassAfter(decoded.iat)) return next();
+      //THERE IS A LOGGED IN USER
+      res.locals.user = freshUser;
+      return next();
+    } catch (err) {
       return next();
     }
-    //4)check if the user cahnged the password after the toke was issued
-    if (freshUser.changedPassAfter(decoded.iat)) return next();
-    //THERE IS A LOGGED IN USER
-    res.locals.user = freshUser;
-    return next();
   }
-  next();
-});
+};
 exports.restrictTo = (...roles) => {
   //roles is an array-roles ['admin, lead-guide]
   return (req, res, next) => {
