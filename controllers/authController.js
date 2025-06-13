@@ -95,6 +95,7 @@ exports.protect = catchAsync(async (req, res, next) => {
   if (freshUser.changedPassAfter(decoded.iat))
     return next(new AppError('user chaned the code log in again'));
   req.user = freshUser;
+  res.local.user = freshUser;
   next();
 });
 //only for rendered pages there will be no error

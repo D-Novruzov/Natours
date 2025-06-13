@@ -5,7 +5,7 @@ import { displayMap } from './mapBox';
 import { login } from './login';
 import { logout } from './login';
 const mapBox = document.getElementById('map');
-const loginForm = document.querySelector('.login-form');
+const loginForm = document.querySelector('form--login');
 const logoutBtn = document.querySelector('.nav__el--logout');
 
 //values
