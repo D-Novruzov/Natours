@@ -1,4 +1,4 @@
-21239
+21240
 135C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint\lib\rules\no-throw-literal.js133917258560268699 0
 135C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\send\node_modules\encodeurl\index.js133910302016012841 0
 134C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-abstract\2016\SetFunctionName.js133914642180239012 0
@@ -44,7 +44,7 @@
 123C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\xss-filters\package.json133930065480855017 0
 116C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\graphemer\LICENSE133917258536348843 0
 132C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\features\json\raw-json.js133942134696766375 0
-92C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\app.js133940561593329156 0
+92C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\app.js133943156002127622 0
 153C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-react\lib\rules\no-unknown-property.d.ts133914642060537562 0
 122C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-abstract\2019\Day.js133914642041797889 0
 128C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\actual\math\fround.js133942134649693031 0
@@ -301,7 +301,7 @@
 129C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\features\map\filter.js133942134603750249 0
 132C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\set-function-length\tsconfig.json133914641870031524 0
 132C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-abstract\2015\SameValueZero.js133914642179419459 0
-112C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\bundled\index.js133942211852787280 0
+112C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\bundled\index.js133943480627882058 0
 141C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\mongoose\lib\helpers\model\applyMethods.js133917259060170264 0
 121C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\supports-color\license133914652298036058 0
 135C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\number\virtual\index.js133942134679046817 0
@@ -312,11 +312,11 @@
 144C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-iterator-helpers\Iterator.prototype.reduce133914641973869657 1
 131C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-abstract\2015\DateFromTime.js133914642037413582 0
 116C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\forwarded\LICENSE133910302012876461 0
-104C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\index.js133942211838941382 0
+104C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\index.js133943480599039227 0
 161C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@babel\polyfill\node_modules\core-js\modules\es6.math.expm1.js133942134572951155 0
 120C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\minimist\CHANGELOG.md133914641898454372 0
 160C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers\helpers.js133942116388094495 0
-103C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\views\account.pug133943136208966495 0
+103C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\views\account.pug133943479058017721 0
 107C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\mongoose133917259083742718 1
 137C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\uri-js\dist\esnext\schemes\urn-uuid.js133914641889309651 0
 155C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\mongoose\lib\helpers\timestamps\setDocumentTimestamps.js133917259082628539 0
@@ -436,14 +436,14 @@
 119C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\braces\lib\expand.js133942116369040794 0
 121C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\cross-env\package.json133914632986935354 0
 123C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\is-weakmap\.editorconfig133914641738527436 0
-103C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\bundled133942211852921875 1
+103C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\bundled133943480628347012 1
 119C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\img\tours\tour-5-cover.jpg133905571043310534 0
 116C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\mime\package.json133910302012886462 0
-95C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js133942117955590183 1
+95C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js133943449795332231 1
 168C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@babel\polyfill\node_modules\core-js\library\modules\es7.string.at.js133942134583934902 0
 100C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\utils\email.js133924961751229928 0
 142C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\update-browserslist-db\check-npm-version.js133942116359261362 0
-116C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\bundled\index.js.map133942211852901906 0
+116C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\bundled\index.js.map133943480628257366 0
 122C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\resolve\test\subdirs.js133914641967960823 0
 108C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\routes\reviewRoutes.js133935341883038174 0
 106C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\type-is133910302017071385 1
@@ -476,7 +476,7 @@
 123C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\math-intrinsics\min.d.ts133910302020833816 0
 119C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\lodash\fp\omitAll.js133930082683837304 0
 143C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\string.prototype.matchall\regexp-matchall.js133914641885357420 0
-106C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\routes\viewRoutes.js133943138307896208 0
+106C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\routes\viewRoutes.js133943157452472461 0
 123C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\validator\lib\isTaxID.js133920638209017659 0
 140C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\axios\lib\helpers\progressEventReducer.js133942131054167561 0
 110C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\body-parser133910302019454728 1
@@ -502,6 +502,14 @@
 119C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\img\tours\tour-6-cover.jpg133905571044551402 0
 163C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-jsx-a11y\__tests__\src\util\isAbstractRole-test.js133914641968785316 0
 112C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\tr46\index.js133917259056521780 0
+137C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-abstract\2019\ValidateTypedArray.js133914642229920158 0
+130C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\typed-array-byte-length\.github133914641888292757 1
+163C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-jsx-a11y\lib\rules\label-has-associated-control.js133914641974694761 0
+126C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\ast-types-flow\package.json133914641850585320 0
+113C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\public\js\updateSettings.js133943475618710868 0
+124C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\modules\README.md133942134736040576 0
+137C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\features\array\reduce-right.js133942134696954571 0
+119C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\postcss-value-parser133942116407117475 1
 139C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@babel\types\lib\builders\productions.js133938612149375629 0
 138C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\tsconfig-paths\lib\tsconfig-loader.d.ts133914641906952001 0
 120C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\nodemailer\lib\mailer133924650052086578 1
@@ -1897,9 +1905,6 @@
 110C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\http-errors133910302015832366 1
 133C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\possible-typed-array-names\.github133914641885367419 1
 121C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\mongodb\src\operations133917259089481367 1
-152C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@babel\polyfill\node_modules\core-js\fn\math\iaddh.js133942134589955756 0
-139C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-react\lib\util\report.d.ts133914642066435663 0
-111C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\qs\README.md133910302020643336 0
 110C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\imurmurhash133914641852620518 1
 163C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-jsx-a11y\lib\rules\role-has-required-aria-props.js133914641980848878 0
 137C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\is-generator-function\test\uglified.js133914641860189563 0
@@ -2411,11 +2416,6 @@
 128C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\actual\array\index.js133942134670391105 0
 142C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\call-bind-apply-helpers\.github\FUNDING.yml133910302020142007 0
 125C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\possible-typed-array-names133914641880028595 1
-137C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-abstract\2019\ValidateTypedArray.js133914642229920158 0
-130C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\typed-array-byte-length\.github133914641888292757 1
-124C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\modules\README.md133942134736040576 0
-137C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\features\array\reduce-right.js133942134696954571 0
-119C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\postcss-value-parser133942116407117475 1
 132C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\features\object\freeze.js133942134642952429 0
 146C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-import\lib\rules\group-exports.js133914641903281497 0
 130C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-abstract\2021\ToPrimitive.js133914642210514443 0
@@ -3209,9 +3209,9 @@
 124C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@parcel\namer-default\lib133942116398592678 1
 133C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\mongoose\lib\helpers\discriminator133917259079365060 1
 113C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\whatwg-url\lib133917259058968605 1
-130C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\whatwg-url\webidl2js-wrapper.js133917259059063277 0
 136C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\uri-js\dist\esnext\schemes\wss.js.map133914641908437123 0
 143C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\mongodb\lib\sdam\topology_description.js.map133917259083449476 0
+130C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\whatwg-url\webidl2js-wrapper.js133917259059063277 0
 122C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\es-abstract\2024\Get.js133914642070856491 0
 125C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\whatwg-url\lib\Function.js133917259057265780 0
 119C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\msgpackr\index.d.cts133942116410252181 0
@@ -5977,6 +5977,9 @@
 121C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\json5\lib\stringify.js133914641847527734 0
 133C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\caniuse-lite\data\features\woff.js133942116581588921 0
 114C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\qs\CHANGELOG.md133910302020342485 0
+152C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@babel\polyfill\node_modules\core-js\fn\math\iaddh.js133942134589955756 0
+139C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-react\lib\util\report.d.ts133914642066435663 0
+111C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\qs\README.md133910302020643336 0
 106C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\qs\test133910302020172001 1
 126C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\qs\test\empty-keys-cases.js133910302016564435 0
 165C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-react\node_modules\resolve\lib\node-modules-paths.js133914641966034386 0
@@ -8509,7 +8512,7 @@
 121C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\is-typed-array\.github133914641891162143 1
 115C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\lodash\extend.js133930082672827148 0
 148C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-react\lib\rules\jsx-uses-react.d.ts133914642045603791 0
-116C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\controllers\viewsController.js133943139899957065 0
+116C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\controllers\viewsController.js133943161238445946 0
 143C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\axobject-query\lib\etc\objects\SliderRole.js133914641970555530 0
 121C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\lodash\fp\camelCase.js133930082668757527 0
 131C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\actual\string\italics.js133942134685429890 0
@@ -12055,8 +12058,6 @@
 151C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-jsx-a11y\lib\rules\iframe-has-title.js133914641967064297 0
 162C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@babel\polyfill\node_modules\core-js\library\fn\string\small.js133942134635972646 0
 152C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-jsx-a11y\lib\rules\img-redundant-alt.js133914641967675679 0
-163C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\eslint-plugin-jsx-a11y\lib\rules\label-has-associated-control.js133914641974694761 0
-126C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\ast-types-flow\package.json133914641850585320 0
 158C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@parcel\package-manager\node_modules\semver\functions\gt.js133942116425014080 0
 144C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\array\virtual\find-last-index.js133942134614091148 0
 140C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\actual\typed-array\int16-array.js133942134681712543 0
@@ -16262,8 +16263,8 @@
 126C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\@parcel\runtime-rsc\LICENSE133942116369440268 0
 135C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\typed-array\iterator.js133942134686734994 0
 131C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\typed-array\join.js133942134687142913 0
-140C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\typed-array\last-index-of.js133942134688520973 0
 136C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\array-includes\test\implementation.js133914641873026881 0
+140C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\typed-array\last-index-of.js133942134688520973 0
 134C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\typed-array\methods.js133942134693257669 0
 129C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\typed-array\of.js133942134694762943 0
 139C:\Users\novru\Desktop\node.js-course\complete-node-bootcamp-master\4-natours\Natours\node_modules\core-js\full\typed-array\reduce-right.js133942134697088403 0
