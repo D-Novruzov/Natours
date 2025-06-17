@@ -95,7 +95,7 @@ exports.protect = catchAsync(async (req, res, next) => {
   if (freshUser.changedPassAfter(decoded.iat))
     return next(new AppError('user chaned the code log in again'));
   req.user = freshUser;
-  res.local.user = freshUser;
+  res.locals.user = freshUser;
   next();
 });
 //only for rendered pages there will be no error
@@ -120,10 +120,9 @@ exports.isLoggedIn = async (req, res, next) => {
       //THERE IS A LOGGED IN USER
       res.locals.user = freshUser;
       return next();
-    } catch (err) {
-      return next();
-    }
+    } catch (err) {}
   }
+  return next();
 };
 exports.restrictTo = (...roles) => {
   //roles is an array-roles ['admin, lead-guide]
